@@ -24,6 +24,7 @@ hank.left(90)
 hank.forward(1200)
 hank.left(90)
 hank.forward(400)
+
 hank.end_fill()
 
 
