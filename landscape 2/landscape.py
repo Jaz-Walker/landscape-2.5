@@ -24,11 +24,19 @@ hank.left(90)
 hank.forward(1200)
 hank.left(90)
 hank.forward(400)
-
 hank.end_fill()
 
-
-
-
-
+bill.fillcolor("deep sky blue")
+bill.begin_fill()
+bill.forward(600)
+bill.left(90)
+bill.forward(400)
+bill.left(90)
+bill.forward(1200)
+bill.left(90)
+bill.forward(400)
+bill.left(90)
+bill.forward(600)
+bill.end_fill()
+bill.goto(0, 100)
 turtle.exitonclick()
