@@ -60,4 +60,16 @@ dale.begin_fill()
 dale.circle(70)
 dale.end_fill()
 
+hank.penup()
+hank.goto(0, 0)
+hank.right(90)
+hank.forward(530)
+hank.left(90)
+hank.forward(360)
+hank.fillcolor("gold")
+hank.begin_fill()
+hank.circle(100)
+hank.end_fill()
+
+
 turtle.exitonclick()
